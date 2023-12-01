@@ -19,7 +19,7 @@ This repo provides somme Telegram python samples for different purposes
 2. Find Your Chat or Group ID
    * If you haven't done so already during the bot creation process, search for your bot on Telegram (by the username you provided) and start a conversation with it by clicking `Start`.
    * If you want to send messages to a group, add the bot to the group.
-   * To get your chat or group ID, use any web browser to navigate to the following URL: https://api.telegram.org/bot<YourBOTToken>/getUpdates (replace <YourBOTToken> with the token you received from BotFather).
+   * To get your chat or group ID, use any web browser to navigate to the following URL: `https://api.telegram.org/bot<YourBOTToken>/getUpdates` (replace <YourBOTToken> with the token you received from BotFather).
    * Send a message to the bot or group. You don't have to do this every time, just once to make it appear in the update's page.
    * Refresh the page, and you'll see an array of all your bot’s interactions. Look for the "chat" object in the array; within it, you can find `id`. This number (might be negative for groups) is your chat or group ID.
    * Copy this ID for usage in your script.
